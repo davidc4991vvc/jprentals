@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Jumpin Party Rentals and Supplies:Los Angeles County area bounce houses, inflatables, slides, &amp; more!</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="bounce houses, inflatables, slides, and more!">
+		<link rel="icon" type="image/png" href="./images/favicon-128.png">
+
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300|Bangers' rel='stylesheet' type='text/css'>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+		<link rel="stylesheet" href="davidc4991vvc.github.io/grid.css/grid.css">
+		<link rel="stylesheet" media="all" href="./styles/main.css">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="Jumpin Party Rentals and Supplies">
+		<meta name="twitter:description" content="bounce houses, inflatables, slides, and more!">
+		<meta name="twitter:image" content="http://jumpinpartyrental@gmail.com/images/bounce-houses/slide-combo/1.jpg">
+
+		<meta property="og:url" content="http://jumpinpartyrental@gmail.com" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Jumpin Party Rentals and Supplies" />
+		<meta property="og:description" content="bounce houses, inflatables, slides, and more!" />
+		<meta property="og:image" content="http://jumpinpartyrental@gmail.com/images/bounce-houses/slide-combo/1.jpg" />
+	</head>
+	<body class="home">
+		<nav class="main">
+			<a href="index.html" class="home"></a>
+				<!-- <a href="./">Home</a> -->
+				<!-- <a href="./about">About</a> -->
+				<a href="rentals.html">Rentals</a>
+				<a href="rules.html">Rules</a>
+				<a href="faq.html">FAQ</a>
+				<a href="contact.html" class="current">Book Now!</a>
+			</div>
+		</nav>
+
+		<div id="page-container">
+			<div class="constrained">
+				<div class="grid">
+					<div class="whole centered large-two-thirds">
+					<h1>JUMPIN PARTY RENTALS AND SUPPLIES</h1>
+						<img src="./images/castle.jpg" alt="Happy kids in fron of Jumpin Party Rentals and Supplies slide" />
+					</div>
+					<div class="whole centered large-two-thirds">
+
+						<h1>The Best Party Rentals in Southern Ca!</h1>
+						<p><strong>Jumpin Party Rentals and Supplies</strong> is the most personal and professional party rental service in the greater Des Moines area. Whether you're looking for a bounce house, slide, or other party rental equipment, Jumpin Party Rentals and Supplies can help.</p>
+					</div>
+				</div>
+
+				<div class="grid text-center">
+					<div class="whole medium-half">
+						<a href="./rentals" class="overlay green">
+							<img src="./images/bounce-houses/slide-combo/1.jpg" alt="Slide Combo" />
+							<h2>Rentals</h2>
+							<button>See Them</button>
+						</a>
+					</div>
+
+					<div class="whole medium-half">
+						<a href="./faq" class="overlay blue">
+							<img src="https://source.unsplash.com/y83Je1OC6Wc/1365x1024" alt="Notebook" />
+							<h2>FAQs</h2>
+							<button>Get Answers</button>
+						</a>
+					</div>
+				</div>
+
+				<div class="grid" id="five-stars">
+					<div class="whole centered large-third">
+						<h1 class="text-center"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></h1>
+						<p>We&rsquo;re rated <strong>five stars</strong> on both <a href="https://www.facebook.com/JP-Party-Rentals-845281445541717/reviews/" target="_blank" title="See our Facebook reviews">Facebook</a> and <a href="https://www.google.com/maps/place/Jumpin Party Rentals and Supplies/@41.63032,-93.535308,8z/data=!4m5!3m4!1s0x0:0x2544634ac0052f6e!8m2!3d41.63032!4d-93.535308" target="_blank" title="See our Google reviews">Google</a> because our customers love us! <a href="./contact">Contact us</a> today to see why we&rsquo;re your best choice for party rentals.</p>
+					</div>
+				</div>
+
+				<div class="grid reviews">
+					<div class="half large-quarter">
+						<p>Highly recommend their services for any event. Great customer service! The inflatables were super clean and the kids had a blast!</p>
+					</div>
+					<div class="half large-quarter">
+						<p>These guys are fabulous! They are hard workers, courteous and professional! They care about you and your guests having a super FUN time! You will be so happy you hired them!</p>
+					</div>
+					<div class="half large-quarter">
+						<p>Thanks for making our daughters birthday a hit with the bounce house and cotton candy machine!</p>
+					</div>
+					<div class="half large-quarter">
+						<p>Used Jumpin Party Rentals and Supplies for a 4th of July event. We rented 3 inflatables. They did an awesome job. Quick set up. Very nice people. Would highly recommend!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="main">
+			<div class="constrained">
+				<a href="index.html" class="home"></a>
+				<!-- <a href="./">Home</a> -->
+				<!-- <a href="./about">About</a> -->
+				<a href="rentals.html">Rentals</a>
+				<a href="rules.html">Rules</a>
+				<a href="faq.html">FAQ</a>
+				<a href="contact.html" class="current">Book Now!</a>
+				<div id="social">
+					<a href="https://www.google.com/maps/place/Jumpin Party Rentals and Supplies/@41.63032,-93.535308,8z/data=!4m5!3m4!1s0x0:0x2544634ac0052f6e!8m2!3d41.63032!4d-93.535308" target="_blank" title="Google"><i class="fa fa-google" aria-hidden="true"></i></a>
+				</div>
+				<div id="copyright">&copy; <span class="year">2017</span> Jumpin Party Rentals and Supplies.</div>
+			</div>
+		</footer>
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-78414825-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+	</body>
+</html>
