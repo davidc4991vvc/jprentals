@@ -1,0 +1,403 @@
+/* JP Party Rentals CSS by Cassidy James Blaede <c@ssidyjam.es> */
+
+* {
+	box-sizing: border-box;
+	color: inherit;
+	font-family: inherit;
+	font-weight: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background: #eee;
+	color: #333;
+	font-family: Roboto, Helvetica, "Droid Sans", Arial, sans-serif;
+	font-size: 18px;
+	/*text-align: center;*/
+}
+
+.constrained {
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page-container {
+	padding: 24px;
+	margin: 0 auto;
+	background-color: #fff;
+
+	color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 0.25em;
+	font-family: Bangers, sans-serif;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+h3 span {
+	display: inline-block;
+	padding-left: 0.25em;
+
+	font-family: Roboto, Helvetica, "Droid Sans", Arial, sans-serif;
+	font-size: 0.5em;
+	line-height: 2em;
+	vertical-align: middle;
+
+	opacity: 0.67;
+}
+
+p {
+	margin-bottom: 1em;
+
+	line-height: 1.5em;
+}
+
+	p strong {
+		font-weight: bold;
+	}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+button {
+	padding: 0.25em 0.5em;
+	margin: 0.5em auto;
+	border: 3px solid;
+	border-radius: 4px;
+	background: transparent;
+	font: inherit;
+}
+
+dl dt {
+	font-size: 1.125em;
+	font-weight: bold;
+	margin-bottom: 0.125em;
+}
+
+dl dd {
+	margin-bottom: 1.5em;
+
+	line-height: 1.5em;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=tel],
+input[type=search],
+input[type=color],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=month],
+input[type=number],
+input[type=range],
+input[type=time],
+input[type=url],
+input[type=week],
+textarea {
+	display: block;
+	/*margin: 0 auto 1em;*/
+	padding: 0.5em;
+	width: 100%;
+
+	border: 1px solid black;
+	border-radius: 4px;
+	outline: none;
+
+	font-size: inherit;
+}
+
+textarea {
+	height: 5em;
+}
+
+button,
+.button,
+input[type=submit],
+input[type=reset],
+input[type=button] {
+	float: right;
+	padding: 0.5em 1.5em;
+
+	background: none;
+
+	border: 1px solid black;
+	border-radius: 4px;
+
+	font-size: inherit;
+	font-weight: bold;
+
+	cursor: pointer;
+}
+
+.text-center {
+	text-align: center;
+}
+
+nav.main {
+	height: 76px;
+	position: sticky; /* http://caniuse.com/#feat=css-sticky */
+	top: 0;
+	z-index: 2;
+
+	background-color: #eee;
+
+	border-top: 8px solid rgb(200, 0, 0);
+
+	color: #333;
+	font-family: Bangers, sans-serif;
+	font-size: 1.5em;
+}
+
+	nav.main a {
+		display: inline-block;
+		float: left;
+		padding: 1.25em 0.5em;
+
+		font-size: 0.7em;
+		text-decoration: none;
+		vertical-align: middle;
+
+		transition: color 250ms;
+	}
+
+	nav.main a:last-child {
+		float: right;
+		margin: 0.75em 0.5em;
+		padding: 0.25em 0.5em;
+
+		border: 4px solid;
+		border-radius: 4px;
+
+		color: #2469cc;
+	}
+
+	nav.main a:hover,
+	nav.main a.current {
+		color: rgb(200,0,0);
+	}
+
+	nav.main a.home {
+		height: 64px;
+		margin: 0;
+		padding: 0;
+		width: 64px;
+
+		background-image: url(../images/jp-logo-rough.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+
+		color: transparent;
+	}
+
+footer.main {
+	padding: 24px 0;
+	width: 100%;
+
+	background-color: #eee;
+
+	text-align: center;
+}
+
+	footer.main a {
+		display: inline-block;
+		padding: 0.5em 1em;
+
+		text-decoration: none;
+	}
+
+		footer.main a:hover {
+			text-decoration: underline;
+		}
+
+		footer.main a.current {
+			font-weight: bold;
+		}
+
+	footer.main div#copyright,
+	footer.main div#designed-by-cassidy {
+		font-size: 0.8em;
+		opacity: 0.33;
+	}
+
+	footer.main div#copyright {
+		margin-top: 1em;
+	}
+
+	footer.main div#designed-by-cassidy a {
+		padding: 0;
+		margin: 0.5em 0;
+
+		font-weight: bold;
+	}
+
+.overlay {
+	display: block;
+	position: relative;
+
+	background: #333;
+
+	text-align: center;
+	text-decoration: none;
+	color: white;
+
+	transition: background-color 250ms;
+}
+
+	.overlay img {
+		opacity: 0.75;
+		transition: opacity 250ms;
+	}
+
+	.overlay h2 {
+		display: block;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translateX(-50%) translateY(-50%);
+
+		text-align: center;
+
+		transition: top 250ms;
+	}
+
+	.overlay button {
+		position: absolute;
+		top: 60%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		margin: 1.25em auto;
+
+		border: 3px solid #fff;
+
+		font-weight: 700;
+		text-transform: uppercase;
+		text-align: center;
+
+		opacity: 0;
+		transition: opacity 250ms, top 250ms, background-color 250ms;
+	}
+
+	.overlay button:hover {
+		background-color: rgb(200, 0, 0);
+	}
+
+	.overlay:hover {
+		background: rgb(200, 0, 0);
+	}
+
+	.overlay:hover img {
+		opacity: 0.5;
+	}
+
+	.overlay:hover h2 {
+		top: 45%;
+	}
+
+	.overlay:hover button {
+		top: 55%;
+		opacity: 1;
+	}
+
+
+.overlay.green:hover,
+.overlay.green button:hover {
+	background-color: rgb(0, 150, 0);
+}
+
+
+.overlay.blue:hover,
+.overlay.blue button:hover {
+	background-color: rgb(0, 25, 150);
+}
+
+#five-stars {
+	margin-top: 4em;
+}
+
+	#five-stars h1 {
+		color: #ffce48;
+	}
+
+.reviews p::before,
+.reviews p::after{
+	display: inline;
+}
+
+.reviews p::before {
+	content: "“";
+}
+
+.reviews p::after {
+	content: "”";
+}
+
+/* Grid.css additions */
+.centered {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.grid > hr {
+	padding: 0;
+	margin: 1em 0.5em;
+}
+
+
+/* Rentals Page */
+.rentals .summary img {
+	width: 30%;
+}
+
+.rentals .summary p:last-child {
+	min-height: 6em;
+}
+
+
+/* Large-up */
+@media (min-width: 1025px) {
+	nav.main {
+		height: 128px;
+	}
+
+		nav.main a {
+			padding: 1.67em 1em;
+			font-size: 1em;
+		}
+
+			nav.main a:last-child {
+				margin: 1.25em 0.5em;
+			}
+
+			nav.main a.home {
+				width: 120px;
+				height: 120px;
+			}
+}
